@@ -1,4 +1,0 @@
-dn: cn=config,ou=groups,dc=example,dc=com
-objectClass: top
-objectClass: posixGroup
-gidNumber: 678
