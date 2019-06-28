@@ -19,7 +19,7 @@ const client = ldap.createClient({
 
 ## Starting the dev environment
 
-To make thing more enjoyable on your machine, I created a make file, so need to start by installing the dependencies and starting the dev server via docker-compose up, by typing:
+To make thing more pleasant, I created a make file, so need to remember all docker commands to start your project. first of all, you necessitate to install the dependencies and start the dev server via docker-compose up, by typing:
 
 ```bash
 make install
