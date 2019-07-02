@@ -10,57 +10,229 @@ objectClass: organizationalunit
 objectClass: top
 ou: People
 
-
 # --- People ----------------------------------
 
-dn: cn=lvassallo,ou=People,dc=example,dc=org
+dn: uid=lvassallo,dc=example,dc=org
 objectClass: person
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: top
-cn: lvassallo
-userpassword: {SSHA}EzBUHMeR7jyZoDthVWm8WcufdROa+JJ7
+cn: Lajuana Vassallo
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
 givenname: Lajuana
 sn: Vassallo
 mail: lvassallo@example.com
-uid: 1001
+uid: lvassallo
 
-dn: cn=jshumake,ou=People,dc=example,dc=org
+dn: uid=jshumake,dc=example,dc=org
 objectClass: person
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: top
-cn: jshumake
-userpassword: {SSHA}EzBUHMeR7jyZoDthVWm8WcufdROa+JJ7
+cn: Julietta Shumake
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
 givenname: Julietta
 sn: Shumake
 mail: zach@example.com
-uid: 1002
+uid: jshumake
 
-dn: cn=mcondello,ou=People,dc=example,dc=org
+dn: uid=mcondello,dc=example,dc=org
 objectClass: person
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: top
-cn: mcondello
-userpassword: {SSHA}EzBUHMeR7jyZoDthVWm8WcufdROa+JJ7
+cn: Maritza Condello
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
 givenname: Maritza
 sn: Condello
 mail: zach@example.com
-uid: 1003
+uid: mcondello
 
-dn: cn=molazhari,ou=People,dc=example,dc=org
+dn: uid=molazhari,dc=example,dc=org
 objectClass: person
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: top
-cn: molazhari
-userpassword: {SSHA}EzBUHMeR7jyZoDthVWm8WcufdROa+JJ7
+cn: Mohammed Lazhari
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
 givenname: Mohammed
 sn: Lazhari
 mail: molazhari@example.com
-uid: 1004
+uid: molazhari
 
+dn: uid=newton,dc=example,dc=org
+uid: newton
+mail: newton@ldap.forumsys.com
+sn: Newton
+cn: Isaac Newton
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=einstein,dc=example,dc=org
+uid: einstein
+mail: einstein@ldap.forumsys.com
+cn: Albert Einstein
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Einstein
+telephoneNumber: 314-159-2653
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=tesla,dc=example,dc=org
+uid: tesla
+mail: tesla@ldap.forumsys.com
+homeDirectory: home
+cn: Nikola Tesla
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Tesla
+uidNumber: 88888
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: posixAccount
+gidNumber: 99999
+
+dn: uid=galieleo,dc=example,dc=org
+uid: galieleo
+mail: galieleo@ldap.forumsys.com
+cn: Galileo Galilei
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Galilei
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=euler,dc=example,dc=org
+uid: euler
+mail: euler@ldap.forumsys.com
+sn: Euler
+cn: Leonhard Euler
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=gauss,dc=example,dc=org
+uid: gauss
+mail: gauss@ldap.forumsys.com
+cn: Carl Friedrich Gauss
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Gauss
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=riemann,dc=example,dc=org
+uid: riemann
+mail: riemann@ldap.forumsys.com
+cn: Bernhard Riemann
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Riemann
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=euclid,dc=example,dc=org
+uid: euclid
+mail: euclid@ldap.forumsys.com
+cn: Euclid
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Euclid
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=curie,dc=example,dc=org
+uid: curie
+mail: curie@ldap.forumsys.com
+cn: Marie Curie
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Curie
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=nobel,dc=example,dc=org
+uid: nobel
+mail: nobel@ldap.forumsys.com
+sn: Nobel
+cn: Alfred Nobel
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=boyle,dc=example,dc=org
+uid: boyle
+mail: boyle@ldap.forumsys.com
+cn: Robert Boyle
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Boyle
+telephoneNumber: 999-867-5309
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=pasteur,dc=example,dc=org
+uid: pasteur
+mail: pasteur@ldap.forumsys.com
+sn: Pasteur
+cn: Louis Pasteur
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+telephoneNumber: 602-214-4978
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=nogroup,dc=example,dc=org
+uid: nogroup
+mail: nogroup@ldap.forumsys.com
+cn: No Group
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: Group
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=training,dc=example,dc=org
+uid: training
+mail: training@forumsys.com
+cn: FS Training
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+sn: training
+telephoneNumber: 888-111-2222
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+
+dn: uid=jmacy,dc=example,dc=org
+uid: jmacy
+mail: jmacy-training@forumsys.com
+sn: training
+cn: FS Training
+userpassword: {SSHA}OjS/AB2YL5xfd7fOohUDZd3eG65wKyIG
+telephoneNumber: 888-111-2222
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
 
 # --- Groups ----------------------------------
 
@@ -69,20 +241,60 @@ objectClass: groupofuniquenames
 objectClass: top
 ou: Groups
 cn: Administrator
-uniquemember: cn=marpontes, ou=People, dc=example,dc=org
+uniquemember: uid=marpontes, dc=example,dc=org
 
 dn: cn=Developers,ou=Groups,dc=example,dc=org
 objectClass: groupofuniquenames
 objectClass: top
 ou: Groups
 cn: Administrator
-uniquemember: cn=marpontes, ou=People, dc=example,dc=org
-uniquemember: cn=zach, ou=People, dc=example,dc=org
-uniquemember: cn=leonardo, ou=People, dc=example,dc=org
+uniquemember: uid=marpontes, dc=example,dc=org
+uniquemember: uid=zach, dc=example,dc=org
+uniquemember: uid=leonardo, dc=example,dc=org
 
 dn: cn=Managers,ou=Groups,dc=example,dc=org
 objectClass: groupofuniquenames
 objectClass: top
 ou: Groups
 cn: Administrator
-uniquemember: cn=molazhari, ou=People, dc=example,dc=org
+uniquemember: uid=molazhari, dc=example,dc=org
+
+dn: ou=scientists,dc=example,dc=org
+uniqueMember: uid=einstein,dc=example,dc=org
+uniqueMember: uid=galieleo,dc=example,dc=org
+uniqueMember: uid=tesla,dc=example,dc=org
+uniqueMember: uid=newton,dc=example,dc=org
+uniqueMember: uid=training,dc=example,dc=org
+uniqueMember: uid=jmacy,dc=example,dc=org
+ou: scientists
+cn: Scientists
+objectClass: groupOfUniqueNames
+objectClass: top
+
+dn: ou=mathematicians,dc=example,dc=org
+uniqueMember: uid=euclid,dc=example,dc=org
+uniqueMember: uid=riemann,dc=example,dc=org
+uniqueMember: uid=euler,dc=example,dc=org
+uniqueMember: uid=gauss,dc=example,dc=org
+uniqueMember: uid=test,dc=example,dc=org
+ou: mathematicians
+cn: Mathematicians
+objectClass: groupOfUniqueNames
+objectClass: top
+
+dn: ou=italians,ou=scientists,dc=example,dc=org
+uniqueMember: uid=tesla,dc=example,dc=org
+ou: italians
+cn: Italians
+objectClass: groupOfUniqueNames
+objectClass: top
+
+dn: ou=chemists,dc=example,dc=org
+uniqueMember: uid=curie,dc=example,dc=org
+uniqueMember: uid=boyle,dc=example,dc=org
+uniqueMember: uid=nobel,dc=example,dc=org
+uniqueMember: uid=pasteur,dc=example,dc=org
+ou: chemists
+cn: Chemists
+objectClass: groupOfUniqueNames
+objectClass: top

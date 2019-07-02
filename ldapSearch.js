@@ -16,13 +16,13 @@ client.search = promisify(client.search);
 module.exports = async function ldapSearch(cnSearch = "") {
   // The search options
   const opts = {
-    filter: `(&(objectClass=person)(cn=${cnSearch ? `*${cnSearch}*` : "*"}))`,
+    filter: `(&(objectClass=person)(uid=${cnSearch ? `*${cnSearch}*` : "*"}))`,
     scope: "sub",
     attributes: ["db", "cn", "mail", "uid", "sn", "givenname"]
   };
 
   await client.bind("cn=admin,dc=example,dc=org", "admin");
-  const search = await client.search("ou=People,dc=example,dc=org", opts);
+  const search = await client.search("dc=example,dc=org", opts);
   const users = [];
   return new Promise((resolve, reject) => {
     search.on("searchEntry", function(entry) {
